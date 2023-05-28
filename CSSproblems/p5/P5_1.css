@@ -1,0 +1,19 @@
+.container{
+    background-color: white;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-row-gap: 20px;
+    width: 540px;
+    padding: 30px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7FAAF7;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}

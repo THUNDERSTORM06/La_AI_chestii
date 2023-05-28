@@ -1,0 +1,42 @@
+html,body {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    font-family: verdana,serif;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: center;
+}
+
+/*https://www.w3schools.com/tags/tag_div.ASP*/
+.container {
+    display: flex;
+    float: outside;
+    border: 2px solid black;
+    width: 400px;
+    align-content: space-between;
+}
+.divInteriorSt{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divInteriorDr{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    margin: auto;
+    max-width: 200px;
+}
+.imagineMica{
+    display: flex;
+}

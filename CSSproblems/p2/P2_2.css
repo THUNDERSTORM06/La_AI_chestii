@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    white-space:nowrap;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+
+#wrapper {
+    height:-moz-calc(100% - 160px); /* Firefox */
+    height: -webkit-calc(100% - 160px); /* Chrome, Safari */
+    height: calc(100% - 160px); /* IE9+ */
+    overflow:auto;
+}
+
+#menu {
+    width: 150px;
+    height: 100%;
+    line-height: 25px;
+    background-color: lightskyblue;
+    float: left;
+    overflow: auto;
+}
+
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: block;
+    }
+
+        #menu ul li {
+            width: 150px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+        }
+
+#body {
+    width: -moz-calc(100% - 150px); /* Firefox */
+    width: -webkit-calc(100% - 150px); /* Chrome, Safari*/
+    width: calc(100% - 150px); /* IE9+ */
+    height:100%;
+    background-color: lightblue;
+    float:right;
+    overflow:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    width: 100%;
+    background-color: cornflowerblue;
+    float:left;
+}

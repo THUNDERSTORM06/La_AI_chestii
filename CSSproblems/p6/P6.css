@@ -1,0 +1,36 @@
+.container{
+    background-color: #FEFEFE;
+    display: block;
+    width: 600px;
+}
+
+.itemMare{
+    width: 824px;
+    height: 20px;
+    background-image: url("20P.JPG");
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+    letter-spacing: 31px;
+    margin-left: 15px;
+    font-size: large;
+}
+
+.itemMic{
+    width: 536px ;
+    height: 20px;
+    background-image: url("13P.JPG");
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+    letter-spacing: 31px;
+    margin-left: 15px;
+    font-size: large;
+
+}
